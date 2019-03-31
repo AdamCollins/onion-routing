@@ -33,6 +33,7 @@ send(pack, pack.to,(res)=>{
 })
 serve(1337,(req)=>{
     let pack = req.data;
+    send()
 });
 /** 1337 -> 1338 -> 1339 -> google -> 1339 ->1338 -> 1337
      * to:1338
